@@ -13,5 +13,8 @@ class Dice
     {
         Random rand = new Random();
         return rand.Next(1, sides + 1);
+        int y = 0;
+
+
     }
 }
